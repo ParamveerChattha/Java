@@ -19,11 +19,21 @@ class Input{
 }
 }
   public void Revert(){
+    String locKey,locValue;
+    int count =0;
     Set<String> detailsKey = Details.keySet();
     int size= detailsKey.size();
     System.out.println(size);
     for(String Key : detailsKey ){
-
+      count ++;
+          locKey= Details.get(Key);
+          locValue= Key;
+          if(size%2==1 && count == ((size/2)+1))
+            {
+            locKey=Key;
+            locValue=Details.get(Key);
+            }
+      System.out.println(locKey + " : "+ locValue);
 //      System.out.println(Key + " : " +Details.get(Key));
   }
 }
