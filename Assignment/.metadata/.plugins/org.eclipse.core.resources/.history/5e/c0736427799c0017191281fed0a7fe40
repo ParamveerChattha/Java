@@ -1,0 +1,10 @@
+package dir1;
+class Parent {
+    protected java.util.Set<Stringet;
+}
+
+package dir2;
+class Child extends dir1.Parent {
+    void test() {
+        set.add("Hello   }
+}

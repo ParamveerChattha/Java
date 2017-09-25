@@ -1,0 +1,43 @@
+What if the main method is declared as private?
+What if the static modifier is removed from the signature of the main method?
+What is Inheritance?
+What is Aggregation?
+What is composition?
+What is encapsulation?
+What are different types of access modifiers?
+What if I write static public void instead of public static void?
+What environment variables do I need to set on my machine in order to be able to run Java programs?
+Can I have multiple main methods in the same class?
+Do I need to import java.lang package any time? Why ?
+Can I import same package/class twice? Will the JVM load the package twice at runtime?
+What is Overloading & Overriding?
+What's the difference between an interface and an abstract class?
+How do you know if an explicit object casting is needed?
+What's the difference between constructors and other methods?
+Can you call one constructor from another if a class has multiple constructors
+Explain the usage of Java packages.
+What would you use to compare two String variables - the operator == or the method equals()? 
+What access level do you need to specify in the class declaration to ensure that only classes from the same directory can access it?
+Can there be an abstract class with no abstract methods in it?
+Can an Interface be final? 
+Can we define private and protected modifiers for variables in interfaces? 
+What modifiers are allowed for methods in an Interface? 
+What is a local, member and a class variable?  
+What does it mean that a method or field is "static"? 
+Difference between JRE/JVM/JDK? 
+Is null a keyword?  
+What are wrapped classes? 
+What restrictions are placed on the location of a package statement within a source code file?
+
+What are Checked and UnChecked Exception?
+Does it matter in what order catch statements for FileNotFoundException and IOExceptipon are written? 
+What is serialization?
+What is Externalizable? 
+Explain the usage of the keyword transient?
+How can you force garbage collection?
+How would you make a copy of an entire Java object with its state?
+What's the main difference between a Vector and an ArrayList 
+What is collection?
+What is difference between final, finally, finalize?
+What is synchronization? 
+What are different levels of synchronization?
