@@ -19,6 +19,7 @@ class Input{
 }
 }
   public void Revert(){
+    read();
     String locKey,locValue;
     int count =0;
     Set<String> detailsKey = Details.keySet();
@@ -42,7 +43,7 @@ class MapChange {
 
   public static void main(String args[]){
     Input userInput = new Input();
-    userInput.read();
+//    userInput.read();
     userInput.Revert();
   //System.outprintln();
 }
