@@ -14,8 +14,8 @@ class C extends A{
   }
 }
 
-class Bound<obj1>{
-  private obj1 Obj1;
+class Bound<T>{
+  private T t;
   public Bound(obj1 Obj1){
     this.Obj1=obj1;
   }

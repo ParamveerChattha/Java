@@ -1,3 +1,4 @@
+package com.param.assignmentMvn;
 import java.util.*;
 class Printer{
   //   String a = new String[];

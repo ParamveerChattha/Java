@@ -1,8 +1,9 @@
+package com.param.assignmentMvn;
 import java.util.*;
 class Intake{
   Scanner sc = new Scanner(System.in);
-  Map<String,Integer> mappedArr = new HashMap<>();
-  List<String> Input = new ArrayList<>();
+  Map<String,Integer> mappedArr = new HashMap();
+  List<String> Input = new ArrayList();
   public void read(){
     for(int i=0;;i++){
       String raw = sc.nextLine();

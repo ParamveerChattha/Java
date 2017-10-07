@@ -81,39 +81,29 @@ class Input{
         of middle element are odd number of elements */
       else{
         String tempVal1,tempVal2;
-        for(int i=0;i<=(size);i++){
-          if(i<(size-1)){
+        for(int i=0;i<=(size-2);i++){
           tempVal1 = valList.get(i+1);
-            }
-            else
-            {
-              tempVal1 = valList.get(i);
-            }
           tempVal2 = valList.get(i);
           i++;
           if(i==((size/2)+1)){
               tempVal1 = valList.get(size/2);
               finalOutput.put(keyList.get(size/2), tempVal1);
           }
-          if(i<((size/2)-1)){
-            finalOutput.put(keyList.get(i-1),tempVal1);
-            //  System.out.println(i + " " + tempVal2);
-              finalOutput.put(keyList.get(i),tempVal2);
-
-            }
-          if(i>((size/2))){
-            finalOutput.put(keyList.get(i-1),tempVal1);
-        //      System.out.println(i + " " + tempVal2);
-              finalOutput.put(keyList.get(i),tempVal2);
-
-        }}
+            if(i!=((size/2))){
+            tempVal1 = valList.get(i+1);
+            tempVal2 = valList.get(i);
+            finalOutput.put(keyList.get(i),tempVal1);
+            i++;
+            finalOutput.put(keyList.get(i),tempVal2);
+              }
+        }
+      }
         Set<String> fKey = finalOutput.keySet();
         for(String Key : fKey)
         {
           System.out.println(Key + " " + finalOutput.get(Key));
         }
-      }
-    }
+  }
 }
 class MapChange {
 

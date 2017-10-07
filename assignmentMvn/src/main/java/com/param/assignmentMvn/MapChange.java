@@ -1,8 +1,9 @@
+package com.param.assignmentMvn;
 import java.util.*;
 class Input{
   String Key,Value;
-  Map<String,String> Details = new LinkedHashMap<>();
-  Map<String,String> finalOutput= new LinkedHashMap<>();
+  Map<String,String> Details = new LinkedHashMap();
+  Map<String,String> finalOutput= new LinkedHashMap();
   Scanner sc = new Scanner(System.in);
   public void read(){
   System.out.println("enter empty string to end");
@@ -23,8 +24,8 @@ class Input{
     read();
     String locKey,locValue;
     int count =0;
-    List<String> keyList = new ArrayList<>();
-    List<String> valList = new ArrayList<>();
+    List<String> keyList = new ArrayList();
+    List<String> valList = new ArrayList();
     Set<String> detailsKey = Details.keySet();
     int size= detailsKey.size();
     System.out.println(size);
