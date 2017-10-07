@@ -1,5 +1,7 @@
 
 
+
+
 @SuppressWarnings("hiding")
 class Surveyor<Claim> implements Validates<Claim> {
 
@@ -10,10 +12,11 @@ class Surveyor<Claim> implements Validates<Claim> {
 	public boolean validate(Claim c) {
 		// TODO Auto-generated method stub
 //		id = c.getName();
-		//String name = c.getName();
+ /****************
+  * Print the id or name or any of the elements of the object c
+  */
+		
 		System.out.println("this is true" +" " );
 		return true;
 	}
-	
-
 }
